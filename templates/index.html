@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moje vreme</title>
+</head>
+<body>
+    <h1>Moje vreme v mestu {{ weather_data.name }}</h1>
+
+    <p>Današnja temparatura je {{ weather_data.main.temp }}°C</p>
+    <p>Sonce je vslo ob {{ sunrise }}</p>
+    {{ weather_data }}
+</body>
+</html>
